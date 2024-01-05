@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Noto+Sans:wght@100&family=Oswald:wght@200&family=Titillium+Web:wght@200&display=swap');
+:root{
+    --text-font:"Dancing Script",sans-serif;
+    --header-font:"Oswald",sans-serif;
+}
+header h1{
+    font-family:"Great Vibes",sans-serif;
+    text-decoration: underline;
+    text-align:center;
+}
+footer{
+    text-align:center;
+    font-family:var(--text-font);
+    font-size:25px;
+    font-style: italic;
+}
