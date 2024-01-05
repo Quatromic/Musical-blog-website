@@ -11,6 +11,39 @@ header h1{
 footer{
     text-align:center;
     font-family:var(--text-font);
-    font-size:25px;
+    font-size:20px;
     font-style: italic;
+}
+nav{
+    position:absolute;
+    border-right: 1px solid black;
+    width:125px;
+    height:90vh;
+}
+nav ul{
+    position:fixed;
+    left:2%;
+    height:50vh;
+    padding:0;
+    padding-left:10px;
+    list-style: none;
+    font-family:"Noto Sans";
+    font-size:17px; 
+    width:70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+nav ul li a{
+    color:grey;
+    text-decoration: none;
+}
+nav ul[id="social-icons"]{
+
+}
+#date{
+    font-family:var(--text-font);
+    position:absolute;
+    top:8px;
+    right:90px;
 }

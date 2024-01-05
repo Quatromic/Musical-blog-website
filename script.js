@@ -27,7 +27,7 @@ const month = (date) => {
     switch(date.getMonth() + 1){
         case 1:
         default:
-            return "January"
+            return "Jan"
         case 2:
             return "Feb"
         case 3:
@@ -55,6 +55,4 @@ const month = (date) => {
 
 const year = date.getFullYear()
 
-datetag.innerHTML += ` ${day(date)} ${daydate} ${month(date)} ${year}`
-
-console.log(`${day(date)} ${daydate} ${month(date)} ${year}`)
+datetag.innerHTML += ` <u>${day(date)} ,${daydate} ${month(date)} ${year}</u>`
