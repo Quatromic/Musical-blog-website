@@ -38,9 +38,6 @@ nav ul li a{
     color:grey;
     text-decoration: none;
 }
-nav ul[id="social-icons"]{
-
-}
 #date{
     font-family:var(--text-font);
     position:absolute;
